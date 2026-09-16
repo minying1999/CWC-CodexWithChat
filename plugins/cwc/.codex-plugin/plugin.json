@@ -1,0 +1,32 @@
+{
+  "name": "cwc",
+  "version": "0.2.0+codex.20260914152045",
+  "description": "Role-based CWC collaboration: local pairing, focused consultation, durable recovery.",
+  "author": {
+    "name": "Local CWC"
+  },
+  "keywords": [
+    "cwc",
+    "codex",
+    "reasoner",
+    "review",
+    "economy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CWC",
+    "shortDescription": "Local execution with focused ChatGPT reasoning.",
+    "longDescription": "Choose an existing ChatGPT conversation for reasoning or review. Codex owns execution; pairing is local and consultations use one request and one reply.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Connect this Codex task to a ChatGPT brain",
+      "Use CWC Economy for this task",
+      "Show the current CWC binding"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

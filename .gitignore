@@ -1,0 +1,14 @@
+# Runtime and local evidence
+state/
+evidence/
+.cwc/
+**/state/
+**/evidence/
+**/.cwc/
+__pycache__/
+*.py[cod]
+*.log
+
+# Local packaging output
+dist/
+output/
